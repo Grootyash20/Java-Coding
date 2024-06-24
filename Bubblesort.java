@@ -18,7 +18,8 @@ class Bubblesort {
 
     public static void main(String[] args) {
         // System.out.println("Hello");
-        int[] arr = { 7, 8, 3, 1, 2 };
-        Bsort(arr);
+        int[] array = { 7, 8, 3, 1, 2 };
+        Bsort(array);
     }
 }
+// Time Complexity : O(n^2)
