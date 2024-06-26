@@ -149,7 +149,25 @@ public class Pattern1 {
         }
     }
 
+    public static void pat12(int n) {
+        for (int i = 1; i <= n; i++) {
+            // number
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j);
+            }
+            // spaces
+            for (int j = 1; j <= 2 * n - 2 * i; j++) {
+                System.out.print(" ");
+            }
+            // number
+            for (int j = i; j >= 1; j--) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
-        pat11(5);
+        pat12(4);
     }
 }
