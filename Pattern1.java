@@ -136,7 +136,20 @@ public class Pattern1 {
         }
     }
 
+    public static void pat11(int n) {
+        int dig = 1;
+        for (int i = 0; i < n; i++) {
+            if (i % 2 == 0)
+                dig = 1;
+            for (int j = 0; j <= i; j++) {
+                System.out.print(dig);
+                dig = 1 - dig;
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
-        pat10(5);
+        pat11(5);
     }
 }
