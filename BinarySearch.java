@@ -22,3 +22,4 @@ public class BinarySearch {
         System.out.println(BSearch(arr, 11));
     }
 }
+// Time Complexity : O(logn)
