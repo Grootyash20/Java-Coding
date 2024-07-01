@@ -171,3 +171,4 @@ public class Pattern1 {
         pat12(4);
     }
 }
+//All patterns on take U forward
